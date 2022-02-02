@@ -29,11 +29,7 @@ const Text = () => {
 
 const App = () => {
    return (
-       <>
-           <Header title="React" id={1} />
-           <Header title="App.js" id={2} />
-           <Text />
-       </>
+       <>       </>
    )
 }
 
