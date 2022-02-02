@@ -4,10 +4,10 @@ import Button from '@mui/material/Button'
 export const Menu = () => {
     return (
         <>
-            <Button color="inherit">Home</Button>
-            <Button color="inherit">Products</Button>
-            <Button color="inherit">Payment</Button>
-            <Button color="inherit">Shipping</Button>
+            <Button variant="outlined" color="inherit">Home</Button>
+            <Button variant="outlined" color="inherit">Products</Button>
+            <Button variant="outlined" color="inherit">Payment</Button>
+            <Button variant="outlined" color="inherit">Shipping</Button>
         </>
     )
 }
