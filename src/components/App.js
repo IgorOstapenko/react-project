@@ -29,7 +29,7 @@ const Text = () => {
 
 const App = () => {
    return (
-       <>       </>
+       <></>
    )
 }
 
