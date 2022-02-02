@@ -1,3 +1,10 @@
-import React from "react"
+import React from 'react'
 
-export const 
+export const CartHeader = () => {
+    return (
+        <div>
+            <div>0</div>
+            <div>$0</div>
+        </div>
+    )
+}

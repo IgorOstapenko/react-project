@@ -7,6 +7,7 @@ import IconButton from '@mui/material/IconButton'
 import MenuIcon from '@mui/icons-material/Menu'
 import { Container } from '@mui/material'
 import { Menu } from 'components/Menu/Menu'
+import { CartHeader } from 'components/Cart/CartHeader'
 
 export const Header = () => {
     return (
@@ -31,6 +32,7 @@ export const Header = () => {
                                 MasterCopy
                             </Typography>
                             <Menu />
+                            <CartHeader />
                         </Toolbar>
                     </Container>
                 </AppBar>
