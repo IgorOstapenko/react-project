@@ -13,7 +13,7 @@ export const ProductsListItem = () => {
                     <div>500 $</div>
                 </CardContent>
                 <CardActions>
-                    <Button>Add to cart</Button>
+                    <Button variant="outlined">Add to cart</Button>
                 </CardActions>
             </Card>
         </>
