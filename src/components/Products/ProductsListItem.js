@@ -6,6 +6,9 @@ export const ProductsListItem = (props) => {
         <>
             <Card>
                 <CardContent>
+                    <div className="product-img">
+                        <img src={image} alt="" />
+                    </div>
                     <h4>{props.name}</h4>
                     <p>{props.description}</p>
                     <div>Type: {props.type}</div>

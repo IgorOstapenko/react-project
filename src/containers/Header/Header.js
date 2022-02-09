@@ -24,7 +24,7 @@ export const Header = () => {
                                 <MenuIcon />
                             </IconButton>
                             <Typography
-                                variant="h6"
+                                variant="h4"
                                 component="div"
                                 sx={{ flexGrow: 1 }}
                             >
