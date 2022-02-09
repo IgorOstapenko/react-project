@@ -33,7 +33,7 @@ export const ProductsList = () => {
                 spacing={5}
             >
                 {ProductsArray.map((product) => (
-                    <Grid item xs={12} sm={6} md={4} key=''>
+                    <Grid item xs={12} sm={6} md={4} key='id'>
                         <ProductsListItem
                             name={product.name}
                             description={product.description}
