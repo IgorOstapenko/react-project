@@ -13,7 +13,7 @@ export const ProductsListItem = (props) => {
                     <div>{props.price} $</div>
                 </CardContent>
                 <CardActions>
-                    <Button variant="outlined">Add to cart</Button>
+                    <Button variant="contained">Add to cart</Button>
                 </CardActions>
             </Card>
         </>
