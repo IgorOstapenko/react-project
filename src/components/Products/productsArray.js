@@ -28,8 +28,8 @@ export const productsArray = [
     },
     {
         id: 4,
-        //name: 'iPhone 13 Pro Max',
-        description: 'This is 13 Pro Max',
+        name: 'iPhone 13 Pro Max',
+        //description: 'This is 13 Pro Max',
         capacity: 512,
         type: 'phone',
         price: 2500,
