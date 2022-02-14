@@ -3,7 +3,7 @@ import Typography from '@mui/material/Typography'
 import { makeStyles } from '@mui/styles'
 import { Grid } from '@mui/material'
 import { ProductsListItem } from './ProductsListItem'
-import { ProductsArray } from './productsArray'
+import { productsArray } from './productsArray'
 
 const useStyles = makeStyles({
     title: {
@@ -22,7 +22,7 @@ export const ProductsList = () => {
                 variant="h4"
                 className={classes.title}
             >
-                Products List
+                Prosucts List
             </Typography>
 
             <Grid
@@ -30,20 +30,30 @@ export const ProductsList = () => {
                 direction="row"
                 justifyContent="space-evenly"
                 alignItems="center"
-                spacing={5}
+                spacing={3}
             >
-                {ProductsArray.map((product) => (
-                    <Grid item xs={12} sm={6} md={4} key='id'>
-                        <ProductsListItem
-                            name={product.name}
-                            description={product.description}
-                            capacity={product.capacity}
-                            type={product.type}
-                            price={product.price}
-                            image={product.image}
-                        />
-                    </Grid>
-                ))}
+                {productsArray.map(
+                    ({
+                        id,
+                        name,
+                        description,
+                        type,
+                        capacity,
+                        price,
+                        image,
+                    }) => (
+                        <Grid item xs={12} sm={6} md={4} key={id}>
+                            <ProductsListItem
+                                image={image}
+                                name={name}
+                                description={description}
+                                type={type}
+                                capacity={capacity}
+                                price={price}
+                            />
+                        </Grid>
+                    )
+                )}
             </Grid>
         </>
     )
