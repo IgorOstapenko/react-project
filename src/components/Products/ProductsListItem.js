@@ -33,6 +33,7 @@ export const ProductsListItem = ({
         </>
     )
 }
+
 ProductsListItem.propTypes = {
     image: PropTypes.string,
     name: PropTypes.string.isRequired,
@@ -41,7 +42,8 @@ ProductsListItem.propTypes = {
     capacity: PropTypes.number.isRequired,
     price: PropTypes.number.isRequired,
 }
+
 ProductsListItem.defaultProps = {
     description: 'No description ...',
-    image: '/images/noimage.jpg',
+    image: '/images/no-image.jpg',
 }
